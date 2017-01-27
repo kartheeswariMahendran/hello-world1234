@@ -1,0 +1,27 @@
+
+<section class="login" ng-init="refresh()">
+SIGN UP
+  <form name="myForm">
+    <fieldset>User Name: <input type="text" ng-model="uname" name="uname" ng-pattern="/^[A-za-z]{1,10}$/" required>
+     <span class="error" ng-if="myForm.uname.$error.pattern">
+        Not valid username!</span></fieldset>
+    <fieldset>Password: <input type="password" name="password" ng-model="password" ng-pattern="/^[A-Za-z0-9]{1,10}$/" required>
+     <span class="error" ng-if="myForm.password.$error.pattern">
+        Not valid password!</span></fieldset>
+    <fieldset>Mobile NO: <input type="text" name="mobile" ng-pattern="/^[0-9]{9}$/" required ng-model="mobile">
+     <span class="error" ng-if="myForm.mobile.$error.pattern">
+        Not valid phone number!</span></fieldset>
+    <fieldset>Email Id: <input type="email" name="email" ng-model="email">
+     <span class="error" ng-if="myForm.email.$error.email">
+        Not valid email!</span>
+  </fieldset>
+  <fieldset>
+  <input type="submit" ng-click="signsave(uname,password,mobile,email)" id="sign-submit" value="Register" />
+  </fieldset>
+
+  </form>
+</section>
+<section class="alertMessage">
+<div ng-if="loginAlertMessage">Register successfully</div>
+</section>
+

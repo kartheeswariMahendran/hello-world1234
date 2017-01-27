@@ -1,0 +1,22 @@
+
+<section class="login" ng-init="refresh()">
+  <form name=form1>
+    <fieldset>User Name: <input type="text" name="username" stopccp ng-model="username" ng-pattern="/^[A-za-z]{1,10}$/" required>
+     <span class="error" ng-if="form1.username.$error.pattern">
+        Not valid username!</span></fieldset></fieldset>
+    <fieldset>password: <input type="text" name="pswd" ng-model="pswd" ng-pattern="/^[A-za-z0-9]{1,10}$/" required>
+    <span class="error" ng-if="form1.pswd.$error.pattern">
+      Not valid password!</span></fieldset></fieldset>
+  <fieldset>
+  <input type="text" id="mainCaptcha" stopccp ng-model="captcha" />
+	<input type="button" id="refresh" value="Refresh"  ng-click="refresh()" />
+	</fieldset>
+	<fieldset>
+	<input type="text" id="txtInput" ng-model="crcttext" /> 
+	<!-- <input id="Button1" type="button" value="Check" ng-click="valid()"/> -->
+	</fieldset>
+	<fieldset>
+  <input type="submit" ng-click="save(username,pswd)" id="submit1" value="save" />
+  </fieldset>
+  </form>
+</section>

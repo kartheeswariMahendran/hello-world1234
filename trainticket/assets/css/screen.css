@@ -1,0 +1,146 @@
+
+.view
+{
+    width: 100%;
+    min-height: 100%;
+    background:#edefd0;
+    background-image: url(../images/train.jpg);
+    
+}
+.alertMessage
+{
+    color: lime;
+    font-size: 20px;
+    padding: 20px;
+    font-style: italic;
+    margin:0 auto;
+    width:100px;
+    height:100px;
+}
+.weluser
+{
+    float:right;
+    color: purple;
+    font-size: 34px;
+    padding: 20px;
+    font-style: italic;
+}
+h1 {
+    text-align: center;
+    color: purple;
+    font-size: 34px;
+    padding: 20px;
+}
+li
+{
+    list-style-type: none;
+    float:right;
+    padding:20px;
+    font-size: 27px;
+    color:purple;
+    cursor:pointer;
+}
+.disptrain
+{
+    /*display:inline-block;*/
+    background: rgba(78, 99, 78, 0.11);
+    width:30%;
+    min-height:50%;
+    border:2px solid black;
+    font-size: 20px;
+    font-style: italic;
+    margin:0 auto;
+    padding:20px;
+    color:#712242;
+}
+ 
+        .datepickerdemo .validation-messages {
+            font-size: 11px;
+            color: darkred;
+            margin: 10px 0 0 25px; 
+         }
+         md-content,md-datepicker,.md-datepicker-input
+         {
+                display: block;
+                position: relative;
+                overflow: hidden;
+                background: rgba(46, 154, 89, 0.38);
+                color:blue;
+                font-size:27px;
+         }
+fieldset {
+            padding: 5px;
+            border: 1px solid black;
+            color: #d5f9f7;
+              font-size: 16px;
+        }
+#mainCaptcha {
+            background: #d5f9f7;
+            max-width: 128px;
+            min-height: 67px;
+            font-family: Comic sans MS;
+            font-size: x-large;
+            }
+.passenger-form
+{
+    color: #04f593;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-style: italic;
+    width:300px;
+     min-height: 400px;
+    border:2px solid black;
+    background: #d6cf9e;
+    padding:20px;
+    margin:20px;
+     background-image: url(../images/welcometrain.jpg);
+     opacity: 0.9;
+     
+}
+input[type="button"],#submit1
+{
+     cursor: pointer;
+}
+
+
+.login
+{
+   
+    width: 20%;
+    min-height: 50%;
+    margin:0 auto;
+    padding: 20px;
+    background-image: url(../images/welcometrain.jpg);
+    margin-top: 20px;
+    opacity: 0.9;
+}
+.welcome-quote {
+   
+    text-align: center;
+    min-height: 10%;
+    margin: 0 auto;
+    color: #04f593;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-size: 46px;
+    padding: 19px;
+    /*background: #04f593;*/
+    background-image: url(../images/welcometrain.jpg);
+     opacity: 0.9;
+
+}
+.error
+{
+    color: #04f593;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+select
+{
+    color: #04f593;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-size: 13px;
+    background: gray;
+}

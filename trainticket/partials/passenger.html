@@ -1,0 +1,37 @@
+<section>
+<p class="weluser">welcome {{weluser}}</p>
+
+<section class="passenger-form">
+<h1>Passenger Form</h1>
+<fieldset>
+FROM:
+<select ng-model="fromList" name="trainfrom" form="fromform"  ng-change="onFromChange(fromList)">
+  <option value="madurai">madurai</option>
+  <option value="trichy">trichy</option>
+  <option value="chennai">chennai</option>
+  <option value="kovai">kovai</option>
+</select>
+</fieldset>
+<fieldset>
+TO:
+<select name="trainto" ng-model="toList" form="toform" ng-change="onToChange(fromList)">
+  <option value="madurai">madurai</option>
+  <option value="trichy">trichy</option>
+  <option value="chennai">chennai</option>
+  <option value="kovai">kovai</option>
+</select>
+</fieldset>
+<div class="datepickerdemo" ng-controller="dateController as ctrl" layout="column" ng-cloak>
+         <md-content>
+          
+            <md-datepicker 
+               ng-model="myDate" 
+               md-placeholder="Enter date"></md-datepicker>
+            
+            </md-content>
+            </div>
+
+</section>
+{{fromList}}
+{{toList}}
+</section>

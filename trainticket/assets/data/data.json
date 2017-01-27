@@ -1,0 +1,24 @@
+{
+	"trains":[{
+		"madurai":{
+			        "train_name" : "Madurai express",
+			        "timing" : "12.00",
+			        "available_seats" : "1200"
+				},
+		"trichy":{
+			        "train_name" : "trichy express",
+			        "timing" : "12.00",
+			        "available_seats" : "12000"
+			},
+		"chennai":{
+			        "train_name" : "chennai express",
+			        "timing" : "12.00",
+			        "available_seats" : "1200"
+			},
+		"kovai":{
+			        "train_name" : "kovai express",
+			        "timing" : "12.00",
+			        "available_seats" : "1200"
+			}
+}]
+}
